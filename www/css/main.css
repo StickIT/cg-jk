@@ -12784,55 +12784,45 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
 }
 
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
-  /* line 4, ../dev/sass/_navbar-responsive.scss */
-  body:before {
-    content: "Smartphone : portrait";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: black;
-    background: white;
-  }
-
-  /* line 14, ../dev/sass/_navbar-responsive.scss */
+  /* line 5, ../dev/sass/_navbar-responsive.scss */
   .container {
     width: 100%;
   }
 
-  /* line 18, ../dev/sass/_navbar-responsive.scss */
+  /* line 9, ../dev/sass/_navbar-responsive.scss */
   .navbar {
     font-size: 1em;
     font-weight: 700;
   }
-  /* line 21, ../dev/sass/_navbar-responsive.scss */
+  /* line 12, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-collapse {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
   }
-  /* line 26, ../dev/sass/_navbar-responsive.scss */
+  /* line 17, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-collapse .dropdown-menu {
     color: #EAEAEA;
   }
-  /* line 30, ../dev/sass/_navbar-responsive.scss */
+  /* line 21, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify {
     display: block;
     margin-top: -5px;
     background-color: #f0f0f0;
   }
-  /* line 35, ../dev/sass/_navbar-responsive.scss */
+  /* line 26, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu {
     margin-left: -15px;
     margin-right: -15px;
     margin-top: 0px;
     display: inline;
   }
-  /* line 40, ../dev/sass/_navbar-responsive.scss */
+  /* line 31, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li:focus, .navbar .navbar-justify .nav.navbar-nav-menu li:hover {
     background-color: #e8e8e8;
   }
-  /* line 44, ../dev/sass/_navbar-responsive.scss */
+  /* line 35, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li a {
     font-size: 16px;
     padding-top: 20px;
@@ -12840,11 +12830,11 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     display: block;
     text-align: center;
   }
-  /* line 51, ../dev/sass/_navbar-responsive.scss */
+  /* line 42, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li:before {
     display: none;
   }
-  /* line 57, ../dev/sass/_navbar-responsive.scss */
+  /* line 48, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account {
     width: 100%;
     margin-left: 0px;
@@ -12853,31 +12843,31 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     border-bottom-left-radius: 0px;
     margin-top: -5px;
   }
-  /* line 64, ../dev/sass/_navbar-responsive.scss */
+  /* line 55, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account .icon-circle {
     padding: 3px 2px !important;
     margin-right: 8px !important;
   }
-  /* line 68, ../dev/sass/_navbar-responsive.scss */
+  /* line 59, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account .navbar-nav-account-link {
     line-height: 13px !important;
     margin-top: 1px !important;
   }
-  /* line 74, ../dev/sass/_navbar-responsive.scss */
+  /* line 65, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate {
     margin-top: 15px;
   }
-  /* line 76, ../dev/sass/_navbar-responsive.scss */
+  /* line 67, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate .navbar-nav-rate-header:after {
     right: 40%;
   }
-  /* line 79, ../dev/sass/_navbar-responsive.scss */
+  /* line 70, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate .navbar-nav-rate-advice {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     margin: 0 0px;
   }
-  /* line 86, ../dev/sass/_navbar-responsive.scss */
+  /* line 77, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-brand {
     margin-left: 15px !important;
     position: absolute;
@@ -12885,66 +12875,56 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  /* line 91, ../dev/sass/_navbar-responsive.scss */
+  /* line 82, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-brand img {
     width: inherit;
   }
-  /* line 96, ../dev/sass/_navbar-responsive.scss */
+  /* line 87, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-header {
     background-color: #0064CB;
     margin-right: 0px !important;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  /* line 106, ../dev/sass/_navbar-responsive.scss */
-  body:before {
-    content: "Smartphone : landscape";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: black;
-    background: white;
-  }
-
-  /* line 116, ../dev/sass/_navbar-responsive.scss */
+  /* line 98, ../dev/sass/_navbar-responsive.scss */
   .container {
     width: 100%;
   }
 
-  /* line 120, ../dev/sass/_navbar-responsive.scss */
+  /* line 102, ../dev/sass/_navbar-responsive.scss */
   .navbar {
     font-size: 1em;
     font-weight: 700;
   }
-  /* line 123, ../dev/sass/_navbar-responsive.scss */
+  /* line 105, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-collapse {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
   }
-  /* line 128, ../dev/sass/_navbar-responsive.scss */
+  /* line 110, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-collapse .dropdown-menu {
     color: #EAEAEA;
   }
-  /* line 132, ../dev/sass/_navbar-responsive.scss */
+  /* line 114, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify {
     display: block;
     margin-top: -5px;
     background-color: #f0f0f0;
   }
-  /* line 137, ../dev/sass/_navbar-responsive.scss */
+  /* line 119, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu {
     margin-left: -15px;
     margin-right: -15px;
     margin-top: 0px;
     display: inline;
   }
-  /* line 142, ../dev/sass/_navbar-responsive.scss */
+  /* line 124, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li:focus, .navbar .navbar-justify .nav.navbar-nav-menu li:hover {
     background-color: #e8e8e8;
   }
-  /* line 146, ../dev/sass/_navbar-responsive.scss */
+  /* line 128, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li a {
     font-size: 16px;
     padding-top: 20px;
@@ -12952,11 +12932,11 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     display: block;
     text-align: center;
   }
-  /* line 153, ../dev/sass/_navbar-responsive.scss */
+  /* line 135, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li:before {
     display: none;
   }
-  /* line 159, ../dev/sass/_navbar-responsive.scss */
+  /* line 141, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account {
     width: 100%;
     margin-left: 0px;
@@ -12965,31 +12945,31 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     border-bottom-left-radius: 0px;
     margin-top: -5px;
   }
-  /* line 166, ../dev/sass/_navbar-responsive.scss */
+  /* line 148, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account .icon-circle {
     padding: 3px 2px !important;
     margin-right: 8px !important;
   }
-  /* line 170, ../dev/sass/_navbar-responsive.scss */
+  /* line 152, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account .navbar-nav-account-link {
     line-height: 13px !important;
     margin-top: 1px !important;
   }
-  /* line 176, ../dev/sass/_navbar-responsive.scss */
+  /* line 158, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate {
     margin-top: 15px;
   }
-  /* line 178, ../dev/sass/_navbar-responsive.scss */
+  /* line 160, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate .navbar-nav-rate-header:after {
     right: 40%;
   }
-  /* line 181, ../dev/sass/_navbar-responsive.scss */
+  /* line 163, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate .navbar-nav-rate-advice {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     margin: 0 0px;
   }
-  /* line 188, ../dev/sass/_navbar-responsive.scss */
+  /* line 170, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-brand {
     margin-left: 15px !important;
     position: absolute;
@@ -12997,66 +12977,56 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  /* line 193, ../dev/sass/_navbar-responsive.scss */
+  /* line 175, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-brand img {
     width: inherit;
   }
-  /* line 198, ../dev/sass/_navbar-responsive.scss */
+  /* line 180, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-header {
     background-color: #0064CB;
     margin-right: 0px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-  /* line 208, ../dev/sass/_navbar-responsive.scss */
-  body:before {
-    content: "Tablet : portrait";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: black;
-    background: white;
-  }
-
-  /* line 218, ../dev/sass/_navbar-responsive.scss */
+  /* line 191, ../dev/sass/_navbar-responsive.scss */
   .container {
     width: 100%;
   }
 
-  /* line 222, ../dev/sass/_navbar-responsive.scss */
+  /* line 195, ../dev/sass/_navbar-responsive.scss */
   .navbar {
     font-size: 1em;
     font-weight: 700;
   }
-  /* line 225, ../dev/sass/_navbar-responsive.scss */
+  /* line 198, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-collapse {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
   }
-  /* line 230, ../dev/sass/_navbar-responsive.scss */
+  /* line 203, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-collapse .dropdown-menu {
     color: #EAEAEA;
   }
-  /* line 234, ../dev/sass/_navbar-responsive.scss */
+  /* line 207, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify {
     display: block;
     margin-top: -5px;
     background-color: #f0f0f0;
   }
-  /* line 239, ../dev/sass/_navbar-responsive.scss */
+  /* line 212, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu {
     margin-left: -15px;
     margin-right: -15px;
     margin-top: 0px;
     display: inline;
   }
-  /* line 244, ../dev/sass/_navbar-responsive.scss */
+  /* line 217, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li:focus, .navbar .navbar-justify .nav.navbar-nav-menu li:hover {
     background-color: #e8e8e8;
   }
-  /* line 248, ../dev/sass/_navbar-responsive.scss */
+  /* line 221, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li a {
     font-size: 16px;
     padding-top: 20px;
@@ -13064,11 +13034,11 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     display: block;
     text-align: center;
   }
-  /* line 255, ../dev/sass/_navbar-responsive.scss */
+  /* line 228, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li:before {
     display: none;
   }
-  /* line 261, ../dev/sass/_navbar-responsive.scss */
+  /* line 234, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account {
     width: 100%;
     margin-left: 0px;
@@ -13077,31 +13047,31 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     border-bottom-left-radius: 0px;
     margin-top: -5px;
   }
-  /* line 268, ../dev/sass/_navbar-responsive.scss */
+  /* line 241, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account .icon-circle {
     padding: 3px 2px !important;
     margin-right: 8px !important;
   }
-  /* line 272, ../dev/sass/_navbar-responsive.scss */
+  /* line 245, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account .navbar-nav-account-link {
     line-height: 13px !important;
     margin-top: 1px !important;
   }
-  /* line 278, ../dev/sass/_navbar-responsive.scss */
+  /* line 251, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate {
     margin-top: 15px;
   }
-  /* line 280, ../dev/sass/_navbar-responsive.scss */
+  /* line 253, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate .navbar-nav-rate-header:after {
     right: 40%;
   }
-  /* line 283, ../dev/sass/_navbar-responsive.scss */
+  /* line 256, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate .navbar-nav-rate-advice {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     margin: 0 0px;
   }
-  /* line 290, ../dev/sass/_navbar-responsive.scss */
+  /* line 263, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-brand {
     margin-left: 15px !important;
     position: absolute;
@@ -13109,66 +13079,56 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  /* line 295, ../dev/sass/_navbar-responsive.scss */
+  /* line 268, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-brand img {
     width: inherit;
   }
-  /* line 300, ../dev/sass/_navbar-responsive.scss */
+  /* line 273, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-header {
     background-color: #0064CB;
     margin-right: 0px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-  /* line 310, ../dev/sass/_navbar-responsive.scss */
-  body:before {
-    content: "Tablet : landscape";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: black;
-    background: white;
-  }
-
-  /* line 320, ../dev/sass/_navbar-responsive.scss */
+  /* line 284, ../dev/sass/_navbar-responsive.scss */
   .container {
     width: 100%;
   }
 
-  /* line 324, ../dev/sass/_navbar-responsive.scss */
+  /* line 288, ../dev/sass/_navbar-responsive.scss */
   .navbar {
     font-size: 1em;
     font-weight: 700;
   }
-  /* line 327, ../dev/sass/_navbar-responsive.scss */
+  /* line 291, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-collapse {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
   }
-  /* line 332, ../dev/sass/_navbar-responsive.scss */
+  /* line 296, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-collapse .dropdown-menu {
     color: #EAEAEA;
   }
-  /* line 336, ../dev/sass/_navbar-responsive.scss */
+  /* line 300, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify {
     display: block;
     margin-top: -5px;
     background-color: #f0f0f0;
   }
-  /* line 341, ../dev/sass/_navbar-responsive.scss */
+  /* line 305, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu {
     margin-left: -15px;
     margin-right: -15px;
     margin-top: 0px;
     display: inline;
   }
-  /* line 346, ../dev/sass/_navbar-responsive.scss */
+  /* line 310, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li:focus, .navbar .navbar-justify .nav.navbar-nav-menu li:hover {
     background-color: #e8e8e8;
   }
-  /* line 350, ../dev/sass/_navbar-responsive.scss */
+  /* line 314, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li a {
     font-size: 16px;
     padding-top: 20px;
@@ -13176,11 +13136,11 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     display: block;
     text-align: center;
   }
-  /* line 357, ../dev/sass/_navbar-responsive.scss */
+  /* line 321, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-menu li:before {
     display: none;
   }
-  /* line 363, ../dev/sass/_navbar-responsive.scss */
+  /* line 327, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account {
     width: 100%;
     margin-left: 0px;
@@ -13189,31 +13149,31 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     border-bottom-left-radius: 0px;
     margin-top: -5px;
   }
-  /* line 370, ../dev/sass/_navbar-responsive.scss */
+  /* line 334, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account .icon-circle {
     padding: 3px 2px !important;
     margin-right: 8px !important;
   }
-  /* line 374, ../dev/sass/_navbar-responsive.scss */
+  /* line 338, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-account .navbar-nav-account-link {
     line-height: 13px !important;
     margin-top: 1px !important;
   }
-  /* line 380, ../dev/sass/_navbar-responsive.scss */
+  /* line 344, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate {
     margin-top: 15px;
   }
-  /* line 382, ../dev/sass/_navbar-responsive.scss */
+  /* line 346, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate .navbar-nav-rate-header:after {
     right: 40%;
   }
-  /* line 385, ../dev/sass/_navbar-responsive.scss */
+  /* line 349, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-justify .nav.navbar-nav-rate .navbar-nav-rate-advice {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     margin: 0 0px;
   }
-  /* line 392, ../dev/sass/_navbar-responsive.scss */
+  /* line 356, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-brand {
     margin-left: 15px !important;
     position: absolute;
@@ -13221,100 +13181,82 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  /* line 397, ../dev/sass/_navbar-responsive.scss */
+  /* line 361, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-brand img {
     width: inherit;
   }
-  /* line 402, ../dev/sass/_navbar-responsive.scss */
+  /* line 366, ../dev/sass/_navbar-responsive.scss */
   .navbar .navbar-header {
     background-color: #0064CB;
     margin-right: 0px !important;
   }
 }
 @media (min-width: 1024px) and (max-width: 1224px) {
-  /* line 413, ../dev/sass/_navbar-responsive.scss */
-  body:before {
-    content: "Mid-low Desktop";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: black;
-    background: white;
-  }
-  /* line 422, ../dev/sass/_navbar-responsive.scss */
+  /* line 377, ../dev/sass/_navbar-responsive.scss */
   body .container {
     width: 100%;
   }
-  /* line 425, ../dev/sass/_navbar-responsive.scss */
+  /* line 380, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav-menu {
     font-size: 9px;
   }
-  /* line 428, ../dev/sass/_navbar-responsive.scss */
+  /* line 383, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav-menu li a {
     padding-right: 0px !important;
     padding-left: 12px !important;
   }
-  /* line 433, ../dev/sass/_navbar-responsive.scss */
+  /* line 388, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav-menu li a:before {
     margin-left: -10px !important;
   }
-  /* line 440, ../dev/sass/_navbar-responsive.scss */
+  /* line 395, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav {
     font-size: 10px;
   }
-  /* line 443, ../dev/sass/_navbar-responsive.scss */
+  /* line 398, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav .navbar-nav-rate-header, body .container .navbar-nav .navbar-nav-rate-stars {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  /* line 448, ../dev/sass/_navbar-responsive.scss */
+  /* line 403, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav .navbar-nav-rate-advice {
     padding-left: 10px !important;
     padding-right: 10px !important;
     font-size: 8px !important;
   }
-  /* line 479, ../dev/sass/_navbar-responsive.scss */
+  /* line 434, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav .icon-circle {
     border: 2px solid !important;
     padding: 1px 2px !important;
   }
-  /* line 486, ../dev/sass/_navbar-responsive.scss */
+  /* line 441, ../dev/sass/_navbar-responsive.scss */
   body .navbar-brand {
     padding: 8px 15px;
     height: 70px;
   }
-  /* line 489, ../dev/sass/_navbar-responsive.scss */
+  /* line 444, ../dev/sass/_navbar-responsive.scss */
   body .navbar-brand img {
     width: 200px !important;
   }
-  /* line 492, ../dev/sass/_navbar-responsive.scss */
+  /* line 447, ../dev/sass/_navbar-responsive.scss */
   body .navbar-brand:hover {
     background: #0064CB;
   }
 }
 @media (min-width: 1224px) and (max-width: 1380px) {
-  /* line 503, ../dev/sass/_navbar-responsive.scss */
-  body:before {
-    content: "Normal Desktop";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: black;
-    background: white;
-  }
-  /* line 512, ../dev/sass/_navbar-responsive.scss */
+  /* line 458, ../dev/sass/_navbar-responsive.scss */
   body .container {
     width: 100%;
   }
-  /* line 515, ../dev/sass/_navbar-responsive.scss */
+  /* line 461, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav-menu {
     font-size: 10px;
   }
-  /* line 551, ../dev/sass/_navbar-responsive.scss */
+  /* line 497, ../dev/sass/_navbar-responsive.scss */
   body .navbar-brand img {
     width: 240px !important;
   }
-  /* line 554, ../dev/sass/_navbar-responsive.scss */
+  /* line 500, ../dev/sass/_navbar-responsive.scss */
   body .navbar-brand:hover {
     background: #0064CB;
   }

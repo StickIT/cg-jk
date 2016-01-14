@@ -1,15 +1,6 @@
 // Smartphone portrait (320px)
 @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : portrait){
-	body{
-		&:before{
-			content:"Smartphone : portrait";
-			position: absolute;
-			bottom:0;
-			left:0;
-			color:black;
-			background:white;
-		}
-	}
+	
 
 .container {
 		width:100%;
@@ -102,16 +93,7 @@
 
 // Smartphone landscape 
 @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : landscape){
-	body{
-		&:before{
-			content:"Smartphone : landscape";
-			position: absolute;
-			bottom:0;
-			left:0;
-			color:black;
-			background:white;
-		}
-	}
+	
 
 .container {
 		width:100%;
@@ -204,16 +186,7 @@
 
 // Tablet portrait (768px)
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : portrait) {
-	body{
-		&:before{
-			content:"Tablet : portrait";
-			position: absolute;
-			bottom:0;
-			left:0;
-			color:black;
-			background:white;
-		}
-	}
+	
 
 	.container {
 		width:100%;
@@ -306,16 +279,7 @@
 
 // Tablet landscape (768px)
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : landscape) {
-	body{
-		&:before{
-			content:"Tablet : landscape";
-			position: absolute;
-			bottom:0;
-			left:0;
-			color:black;
-			background:white;
-		}
-	}
+	
 
 	.container {
 		width:100%;
@@ -410,15 +374,6 @@
 @media (min-width: 1024px) and (max-width: 1224px) {
 	body{
 
-		&:before{
-			content:"Mid-low Desktop";
-			position: absolute;
-			bottom:0;
-			left:0;
-			color:black;
-			background:white;
-		}
-
 		.container {
 			width:100%;
 
@@ -499,15 +454,6 @@
 // Normal Desktop (1224 > 1380 px)
 @media (min-width: 1224px) and (max-width: 1380px) {
 	body{
-
-		&:before{
-			content:"Normal Desktop";
-			position: absolute;
-			bottom:0;
-			left:0;
-			color:black;
-			background:white;
-		}
 
 		.container {
 			width:100%;
