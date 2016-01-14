@@ -1,0 +1,24 @@
+// Depandencies
+@import 'compass';
+// Variables
+@import 'variables';
+// Bootstrap
+@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../../bower_components/font-awesome/scss/font-awesome.scss';
+// Desktop
+@import 'navbar';
+@import 'home';
+@import 'garanties';
+@import 'purchase-module';
+@import 'info-module';
+@import 'panel-product';
+@import 'footer';
+
+// Responsives
+@import 'navbar-responsive';
+@import 'garanties-responsive';
+@import 'purchase-module-responsive';
+@import 'info-module-responsive';
+@import 'panel-product-responsive';
+@import 'footer-responsive';
+// @import 'home-responsive';

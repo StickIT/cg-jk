@@ -1,0 +1,559 @@
+// Smartphone portrait (320px)
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : portrait){
+	body{
+		&:before{
+			content:"Smartphone : portrait";
+			position: absolute;
+			bottom:0;
+			left:0;
+			color:black;
+			background:white;
+		}
+	}
+
+.container {
+		width:100%;
+	}		
+
+	.navbar{
+		font-size:1em;
+		font-weight:700;
+		.navbar-collapse {
+		padding-right:0px;
+		padding-left:0px;
+		margin-right: 0px;
+		margin-left: 0px;
+			.dropdown-menu {
+				color:#EAEAEA;
+			}
+		}
+		.navbar-justify{
+			display: block;
+			margin-top: -5px;
+			background-color: $cgp-grey-light;
+
+			.nav.navbar-nav-menu {
+				margin-left: -15px;
+				margin-right: -15px;
+				margin-top: 0px;
+				display: inline;
+				li:focus, li:hover {
+					background-color: darken($cgp-grey-light, 3%);
+				}
+				li {
+					a {
+					font-size: 16px;
+				    padding-top: 20px;
+				    padding-bottom: 20px;
+				    display: block;
+				    text-align: center;
+				    }
+					&:before {
+						display:none;
+					}
+				}
+			}
+
+			.nav.navbar-nav-account {
+				width: 100%;
+				margin-left: 0px;
+				margin-right: 0px;
+				@include border-bottom-radius(0px);
+				margin-top: -5px;
+
+				.icon-circle {
+					padding: 3px 2px !important;
+					margin-right: 8px !important;
+				}
+				.navbar-nav-account-link {
+				line-height: 13px !important;
+				margin-top: 1px !important;
+				}
+			}
+
+			.nav.navbar-nav-rate {
+				margin-top: 15px;
+				.navbar-nav-rate-header:after{
+					right: 40%;
+				}
+				.navbar-nav-rate-advice{
+					@include border-bottom-radius(0px);
+					margin: 0 0px;
+				}
+			}
+		}
+
+		.navbar-brand {
+			margin-left: 15px !important;
+			position: absolute;
+			width: 85%;
+			@include border-bottom-radius(0px);
+			img {
+				width: inherit;
+			}
+		}
+
+		.navbar-header{
+			background-color:$cgp-blue-official;
+			margin-right: 0px !important;
+		}
+	}
+}
+
+// Smartphone landscape 
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : landscape){
+	body{
+		&:before{
+			content:"Smartphone : landscape";
+			position: absolute;
+			bottom:0;
+			left:0;
+			color:black;
+			background:white;
+		}
+	}
+
+.container {
+		width:100%;
+	}		
+
+	.navbar{
+		font-size:1em;
+		font-weight:700;
+		.navbar-collapse {
+		padding-right:0px;
+		padding-left:0px;
+		margin-right: 0px;
+		margin-left: 0px;
+			.dropdown-menu {
+				color:#EAEAEA;
+			}
+		}
+		.navbar-justify{
+			display: block;
+			margin-top: -5px;
+			background-color: $cgp-grey-light;
+
+			.nav.navbar-nav-menu {
+				margin-left: -15px;
+				margin-right: -15px;
+				margin-top: 0px;
+				display: inline;
+				li:focus, li:hover {
+					background-color: darken($cgp-grey-light, 3%);
+				}
+				li {
+					a {
+					font-size: 16px;
+				    padding-top: 20px;
+				    padding-bottom: 20px;
+				    display: block;
+				    text-align: center;
+				    }
+					&:before {
+						display:none;
+					}
+				}
+			}
+
+			.nav.navbar-nav-account {
+				width: 100%;
+				margin-left: 0px;
+				margin-right: 0px;
+				@include border-bottom-radius(0px);
+				margin-top: -5px;
+
+				.icon-circle {
+					padding: 3px 2px !important;
+					margin-right: 8px !important;
+				}
+				.navbar-nav-account-link {
+				line-height: 13px !important;
+				margin-top: 1px !important;
+				}
+			}
+
+			.nav.navbar-nav-rate {
+				margin-top: 15px;
+				.navbar-nav-rate-header:after{
+					right: 40%;
+				}
+				.navbar-nav-rate-advice{
+					@include border-bottom-radius(0px);
+					margin: 0 0px;
+				}
+			}
+		}
+
+		.navbar-brand {
+			margin-left: 15px !important;
+			position: absolute;
+			width: 85%;
+			@include border-bottom-radius(0px);
+			img {
+				width: inherit;
+			}
+		}
+
+		.navbar-header{
+			background-color:$cgp-blue-official;
+			margin-right: 0px !important;
+		}
+	}
+}
+
+// Tablet portrait (768px)
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : portrait) {
+	body{
+		&:before{
+			content:"Tablet : portrait";
+			position: absolute;
+			bottom:0;
+			left:0;
+			color:black;
+			background:white;
+		}
+	}
+
+	.container {
+		width:100%;
+	}		
+
+	.navbar{
+		font-size:1em;
+		font-weight:700;
+		.navbar-collapse {
+		padding-right:0px;
+		padding-left:0px;
+		margin-right: 0px;
+		margin-left: 0px;
+			.dropdown-menu {
+				color:#EAEAEA;
+			}
+		}
+		.navbar-justify{
+			display: block;
+			margin-top: -5px;
+			background-color: $cgp-grey-light;
+
+			.nav.navbar-nav-menu {
+				margin-left: -15px;
+				margin-right: -15px;
+				margin-top: 0px;
+				display: inline;
+				li:focus, li:hover {
+					background-color: darken($cgp-grey-light, 3%);
+				}
+				li {
+					a {
+					font-size: 16px;
+				    padding-top: 20px;
+				    padding-bottom: 20px;
+				    display: block;
+				    text-align: center;
+				    }
+					&:before {
+						display:none;
+					}
+				}
+			}
+
+			.nav.navbar-nav-account {
+				width: 100%;
+				margin-left: 0px;
+				margin-right: 0px;
+				@include border-bottom-radius(0px);
+				margin-top: -5px;
+
+				.icon-circle {
+					padding: 3px 2px !important;
+					margin-right: 8px !important;
+				}
+				.navbar-nav-account-link {
+				line-height: 13px !important;
+				margin-top: 1px !important;
+				}
+			}
+
+			.nav.navbar-nav-rate {
+				margin-top: 15px;
+				.navbar-nav-rate-header:after{
+					right: 40%;
+				}
+				.navbar-nav-rate-advice{
+					@include border-bottom-radius(0px);
+					margin: 0 0px;
+				}
+			}
+		}
+
+		.navbar-brand {
+			margin-left: 15px !important;
+			position: absolute;
+			width: 100%;
+			@include border-bottom-radius(0px);
+			img {
+				width: inherit;
+			}
+		}
+
+		.navbar-header{
+			background-color:$cgp-blue-official;
+			margin-right: 0px !important;
+		}
+	}
+}
+
+// Tablet landscape (768px)
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : landscape) {
+	body{
+		&:before{
+			content:"Tablet : landscape";
+			position: absolute;
+			bottom:0;
+			left:0;
+			color:black;
+			background:white;
+		}
+	}
+
+	.container {
+		width:100%;
+	}		
+
+	.navbar{
+		font-size:1em;
+		font-weight:700;
+		.navbar-collapse {
+		padding-right:0px;
+		padding-left:0px;
+		margin-right: 0px;
+		margin-left: 0px;
+			.dropdown-menu {
+				color:#EAEAEA;
+			}
+		}
+		.navbar-justify{
+			display: block;
+			margin-top: -5px;
+			background-color: $cgp-grey-light;
+
+			.nav.navbar-nav-menu {
+				margin-left: -15px;
+				margin-right: -15px;
+				margin-top: 0px;
+				display: inline;
+				li:focus, li:hover {
+					background-color: darken($cgp-grey-light, 3%);
+				}
+				li {
+					a {
+					font-size: 16px;
+				    padding-top: 20px;
+				    padding-bottom: 20px;
+				    display: block;
+				    text-align: center;
+				    }
+					&:before {
+						display:none;
+					}
+				}
+			}
+
+			.nav.navbar-nav-account {
+				width: 100%;
+				margin-left: 0px;
+				margin-right: 0px;
+				@include border-bottom-radius(0px);
+				margin-top: -5px;
+
+				.icon-circle {
+					padding: 3px 2px !important;
+					margin-right: 8px !important;
+				}
+				.navbar-nav-account-link {
+				line-height: 13px !important;
+				margin-top: 1px !important;
+				}
+			}
+
+			.nav.navbar-nav-rate {
+				margin-top: 15px;
+				.navbar-nav-rate-header:after{
+					right: 40%;
+				}
+				.navbar-nav-rate-advice{
+					@include border-bottom-radius(0px);
+					margin: 0 0px;
+				}
+			}
+		}
+
+		.navbar-brand {
+			margin-left: 15px !important;
+			position: absolute;
+			width: 100%;
+			@include border-bottom-radius(0px);
+			img {
+				width: inherit;
+			}
+		}
+
+		.navbar-header{
+			background-color:$cgp-blue-official;
+			margin-right: 0px !important;
+		}
+	}
+}
+
+// Mid-low Desktop (1024 > 1124 px)
+@media (min-width: 1024px) and (max-width: 1224px) {
+	body{
+
+		&:before{
+			content:"Mid-low Desktop";
+			position: absolute;
+			bottom:0;
+			left:0;
+			color:black;
+			background:white;
+		}
+
+		.container {
+			width:100%;
+
+			.navbar-nav-menu {
+				font-size: 9px;
+					li{
+						a{
+						// padding: 10px 10px;
+						padding-right:0px !important;
+						padding-left:12px !important;
+
+						&:before{
+							margin-left:-10px !important;
+						}
+					}
+				}
+			}
+
+			.navbar-nav{
+				font-size: 10px;
+
+				.navbar-nav-rate-header, .navbar-nav-rate-stars{
+					padding-left:0px !important;
+					padding-right:0px !important;
+				}
+
+				.navbar-nav-rate-advice{
+					padding-left:10px !important;
+					padding-right:10px !important;
+					font-size: 8px !important;
+				}
+
+				// .navbar{
+				// 	border:none;
+				// 	text-transform: uppercase;
+				// 	font-size:12px;
+				// 	font-weight:600;
+
+				// 	.navbar-justify{
+				// 		@include display-flex;
+				//   		@include justify-content(space-between);
+
+				// 		.nav{
+				// 			&.navbar-nav{
+				// 				height: $navbar-menu-height;
+				// 				background: $cgp-grey-light;
+				// 				@include border-bottom-radius($border-radius-base);
+				// 			}	
+
+				// 			&.navbar-nav-menu {
+				// 				font-size: 9px;
+				// 			}		
+				// 		}
+
+				// 	}
+				// }
+
+				.icon-circle {
+					border: 2px solid !important;
+					padding: 1px 2px !important;
+				}
+			}
+		}	
+
+		.navbar-brand{
+			padding: 8px 15px;
+			height:70px;
+			img {
+				width:200px !important;
+			}
+			&:hover{
+				background: $cgp-blue-official;
+			}
+		}
+	}			
+}
+
+// Normal Desktop (1224 > 1380 px)
+@media (min-width: 1224px) and (max-width: 1380px) {
+	body{
+
+		&:before{
+			content:"Normal Desktop";
+			position: absolute;
+			bottom:0;
+			left:0;
+			color:black;
+			background:white;
+		}
+
+		.container {
+			width:100%;
+
+			.navbar-nav-menu {
+				font-size: 10px;
+			}
+
+			// .navbar{
+			// 	border:none;
+			// 	text-transform: uppercase;
+			// 	font-size:12px;
+			// 	font-weight:600;
+
+			// 	.navbar-justify{
+			// 		@include display-flex;
+			//   		@include justify-content(space-between);
+
+			// 		.nav{
+			// 			&.navbar-nav{
+			// 				height: $navbar-menu-height;
+			// 				background: $cgp-grey-light;
+			// 				@include border-bottom-radius($border-radius-base);
+			// 			}	
+
+			// 			&.navbar-nav-menu {
+			// 				font-size: 9px;
+			// 			}		
+			// 		}
+
+			// 	}
+			// }
+
+			// .icon-circle {
+			// 	border: 2px solid !important;
+			// 	padding: 1px 2px !important;
+			// }
+		}
+
+		.navbar-brand{
+			img {
+				width:240px !important;
+			}
+			&:hover{
+				background: $cgp-blue-official;
+			}
+		}
+	}			
+}

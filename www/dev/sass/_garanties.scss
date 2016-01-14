@@ -1,0 +1,56 @@
+.content-garanties {
+	background-color:$cgp-grey-light;
+	ul {
+		li{
+			&.content-garanties-step{
+				background-color:$cgp-grey-light;
+				padding-top:$grid-gutter-width /2;
+				padding-bottom:$grid-gutter-width /2;
+
+				&:first-child{
+					&:before{
+						display:none;
+					}
+				}
+
+				&:last-child{
+					&:after{
+						display:none;
+					}
+				}
+
+				&:after{
+					content: url(../resources/garanties-list-next.svg);
+					background:white;
+					position: absolute;
+					right:0;
+					top:0;
+					height:100%;
+					width: ($grid-gutter-width)-7px;
+				}
+
+				img {
+					&.content-garanties-step-logo {
+						width: $garanties-step-logo-size;
+						height: $garanties-step-logo-size;
+						float: left;
+						margin-right: 15px;
+					}
+				}
+
+				.content-garanties-step-text{
+					padding-top: ($garanties-step-logo-size/2)-18px;
+					font-size: 0.95em;
+					text-transform: uppercase;
+					font-weight: 700;
+					color:$cgp-blue-official;
+					
+					.bold{
+						font-weight: 700;
+						color:$cgp-grey-dark;
+					}
+				}
+			}
+		}
+	}		
+}

@@ -1,0 +1,15 @@
+.info-module{
+	background-color: $cgp-grey-light-box;
+
+	.info-module-picto{
+		font-size: 60px;
+		color: darken($cgp-grey-light-box,15%);
+		float:left;
+	}
+
+	.info-module-text{
+		text-align: justify;
+		padding-right: 0px;
+		color: darken($cgp-grey-light-box,75%);
+	}
+}

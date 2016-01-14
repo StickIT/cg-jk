@@ -1,0 +1,226 @@
+.panel-product {
+	margin-top: $line-height-computed*2;
+
+	.panel-product-heading{
+
+		img{
+			width:100px;
+			height: 100px;
+		}
+
+		h3{
+			&.panel-product-heading-title{
+				display: inline-block;
+				margin-top: $line-height-computed+4px;
+				padding-left: $padding-large-vertical*2;
+				color: $cgp-grey-dark;
+				text-transform: uppercase;
+				font-size: 20px;
+				font-weight: 500;
+				position: absolute;
+
+				.title-highlight{
+					font-weight: 800;
+					color: $cgp-grey-dark;
+					letter-spacing: 1px;
+					text-transform: uppercase;
+					font-size: 26px;
+				}
+			}
+		}
+	}
+
+	.panel-product-card{
+
+		img{
+			display: inline-block;
+			right:0;
+			width: 210px;
+			height: auto;
+			z-index: 12;
+			position: absolute;
+		}
+
+		.panel-product-card-price{
+
+			background-color: $cgp-blue-official;
+			display: inline-block;
+			font-size: 14px;
+			text-transform: uppercase;
+			color: #fff;
+			line-height: 24px;
+			@include border-radius($border-radius-base);
+			padding-top: $padding-large-horizontal;
+			padding-bottom: $padding-large-horizontal;
+			padding-left: $padding-large-vertical*3;
+			margin-top: $line-height-computed*3;
+			z-index: -10;
+
+			.card-price-highlight{
+				font-size: 34px;
+				text-transform: uppercase;
+				color: #fff;
+				font-weight: 700;
+				letter-spacing: 2px;
+			}	
+		}
+
+		.panel-product-card-3x{
+
+			padding-left: 0px;
+			display: inline-block;
+			text-transform: uppercase;
+			z-index: -10;
+			margin-top: $line-height-computed;
+
+			.panel-product-card-3x-left{
+				
+				padding-top: $padding-large-horizontal;
+				padding-bottom: $padding-large-horizontal;
+				text-align: right;
+				font-size: 15px;
+				font-weight: 600;
+				margin-top: $line-height-computed/2;
+
+			}
+
+			.panel-product-card-3x-right{
+				
+				background-color: $cgp-grey-light;
+				@include border-radius($border-radius-base);
+				padding-top: $padding-large-horizontal*0.5;
+				padding-bottom: $padding-large-horizontal*0.5;
+				padding-left: $padding-large-vertical*3;
+
+				.card-3x-highlight{
+					
+					font-size: 50px;
+					text-transform: uppercase;
+					color: $cgp-grey-dark;
+					font-weight: 800;
+					letter-spacing: 1px;
+					display: inline-block;
+				}
+
+				.card-3x-text{
+
+					display: inline-block;
+					font-size: 18px;
+					line-height: 22px;
+				}
+
+			}
+		}
+
+		.panel-product-card-shipping{
+
+			padding-left: 0px;
+			display: inline-block;
+			text-transform: uppercase;
+			z-index: -10;
+			margin-top: $line-height-computed;
+
+			.panel-product-card-shipping-left{
+
+				padding-top: $padding-large-horizontal;
+				padding-bottom: $padding-large-horizontal;
+				text-align: right;
+				font-size: 15px;
+				font-weight: 600;
+				margin-top: $line-height-computed/2;
+
+			}
+
+			.panel-product-card-shipping-right{
+
+				background-color: $cgp-grey-light;
+				@include border-radius($border-radius-base);
+				padding-top: $padding-large-horizontal*0.5;
+				padding-bottom: $padding-large-horizontal*0.5;
+				padding-left: $padding-large-vertical*3;
+				font-size: 50px;
+				text-transform: uppercase;
+				color: $cgp-grey-dark;
+				font-weight: 800;
+				letter-spacing: 1px;
+				display: inline-block;
+
+				sup{
+					font-size:26px;
+					padding-left:$padding-large-vertical/2;
+				}
+			}
+		}	
+
+		.panel-product-card-more{
+			margin-top: $line-height-computed*2.5;
+			font-size: 12px;
+			line-height: 14px;
+		}
+	}
+
+	.panel-product-plate{
+		margin-top: $line-height-computed*5;
+
+			.panel-product-plate-shadow{
+				position:absolute;
+				z-index: 30;
+
+				img{
+					@include border-radius($border-radius-base);
+					@include box-shadow($cgp-grey-dark 0px 0px 8px);
+					transform: rotate(2.17deg);
+					display: inline-block;
+				}	
+			}
+
+		.panel-product-card-price{
+
+			position:absolute;
+			z-index: -20;
+			background-color: $cgp-blue-official;
+			display: inline-block;
+			font-size: 14px;
+			text-transform: uppercase;
+			color: #fff;
+			line-height: 24px;
+			@include border-radius($border-radius-base);
+			padding-top: $padding-large-horizontal;
+			padding-bottom: $padding-large-horizontal;
+			padding-left: $padding-large-vertical*3;
+			margin-top: $line-height-computed*2;
+			z-index: -10;
+
+			.card-price-highlight{
+				font-size: 34px;
+				text-transform: uppercase;
+				color: #fff;
+				font-weight: 700;
+				letter-spacing: 2px;
+			}
+		}		
+
+		.purchase-btn{
+
+			position:absolute;
+			z-index: 40;
+			margin-top: 110px;
+			line-height: 34px;
+			height: 54px;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 500;
+			background-color: $cgp-red-official;
+			border-color: $cgp-red-official-dark;
+			padding-right: $padding-large-horizontal*1.5;
+			padding-left: $padding-large-horizontal*1.5;
+			display: inline-block;
+			img {
+				width: 26px;
+				height: auto;
+				margin-top: -2px;
+				margin-left: 6px;
+			}
+		}
+	}
+}

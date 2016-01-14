@@ -1,0 +1,157 @@
+// Smartphone portrait (320px)
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : portrait){
+	.footer-bottom-facebook{				
+		margin-bottom: 0px;
+		text-align: center; 
+	}
+	.footer-bottom-copyright{
+		text-align: center !important; 
+		margin-bottom: 15px;
+	}	
+	.footer-top{
+		display: inline-block !important;
+
+		.col-xs-12{
+			margin-bottom: $grid-gutter-width/2;
+			margin-top: $grid-gutter-width/2;
+		}
+
+		.footer-top-heading{
+			text-align:center;
+		}
+
+		ul{
+			li{
+				text-align:center;
+
+			}
+		}
+
+		.footer-top-parteners{
+
+			img{
+				width: 240px !important;
+			}
+		}		
+	}
+}
+	
+// Smartphone landscape 
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : landscape){
+	.footer-bottom-facebook{				
+		margin-bottom: 0px;
+		text-align: center; 
+	}
+	.footer-bottom-copyright{
+		text-align: center !important; 
+		margin-bottom: 15px;
+	}	
+	.footer-top{
+		display: inline-block !important;
+
+		.col-xs-12{
+			margin-bottom: $grid-gutter-width/2;
+			margin-top: $grid-gutter-width/2;
+		}
+
+		.footer-top-heading{
+			text-align:center;
+		}
+
+		ul{
+			li{
+				text-align:center;
+
+			}
+		}
+
+		.footer-top-parteners{
+
+			img{
+				width: 240px !important;
+			}
+		}		
+	}
+}
+
+// Tablet portrait (768px)
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : portrait) {
+	.footer-bottom-facebook{				
+		margin-bottom: 15px;
+	}
+	.footer-top{
+		display: inline-block !important;
+	}
+	.footer-top-shipping-logo{
+		li{
+			img{
+			height:20px !important;
+			}
+		}	
+	}
+
+	.footer-top-payement-logo{
+		li{
+			img{
+			height:20px !important;
+			}
+		}	
+	}
+}
+
+// Tablet landscape (768px)
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : landscape) {
+	.footer-bottom-facebook{				
+		margin-bottom: 15px;
+	}
+	.footer-top{
+		display: inline-block !important;
+	}
+	.footer-top-shipping-logo{
+		li{
+			img{
+			height:20px !important;
+			}
+		}	
+	}
+
+	.footer-top-payement-logo{
+		li{
+			img{
+			height:20px !important;
+			}
+		}	
+	}	
+}
+
+// Normal Desktop
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max){
+
+	.footer-top-heading{
+		font-size: 16px;
+	}
+
+	.footer-top{
+		ul{
+			li{
+				font-size: 12px;
+			}
+		}
+	}
+
+	.footer-top-shipping-logo{
+		li{
+			img{
+			height:22px !important;
+			}
+		}	
+	}
+
+	.footer-top-payement-logo{
+		li{
+			img{
+			height:22px !important;
+			}
+		}	
+	}	
+}

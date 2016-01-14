@@ -1,0 +1,83 @@
+// Smartphone portrait (320px)
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : portrait){
+	.purchase-btn{
+		font-size: 14px !important;
+		img{
+			display: none;
+		}
+	}
+
+	.right-side{
+		float: none!important;
+		margin-top: 300px!important;
+	}
+}
+	
+// Smartphone landscape 
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : landscape){
+	.purchase-btn{
+		font-size: 14px !important;
+		img{
+
+		}
+	}
+
+	.right-side{ 
+		float: none!important;
+		margin-top: 240px!important;
+	}
+
+}
+
+// Tablet portrait (768px)
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : portrait) {
+	.purchase-module-heading-title{
+		text-align:center;
+	}
+
+	.right-side{
+		margin-top: 200px!important;
+	}
+}
+
+// Tablet landscape (768px)
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : landscape) {
+	.purchase-module-heading-title{
+		text-align:center;
+	}
+
+	.right-side{
+		margin-top: 200px!important;
+	}
+}
+
+// Normal Desktop
+@media (min-width: $screen-md-min) and (max-width: 1218px){
+	.purchase-module-heading-title{
+		font-size: 20px !important;
+	}
+
+	label{
+		font-size: 11px;
+		margin-bottom: 20px;
+	}
+
+	.purchase-module-form-label{
+		padding-bottom: 8px;
+	}
+
+	.purchase-module-form-label-input,.purchase-module-form-label-option,.purchase-module-form-label-select{
+		margin-bottom: 10px;
+	}
+}
+
+// Mid-low Desktop (1218 > 1385 px)
+@media (min-width: 1218px) and (max-width: 1385px) {
+	.purchase-module-heading-title{
+		font-size: 24px !important;
+	}
+
+	label{
+		font-size: 12px;
+	}
+}

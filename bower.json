@@ -1,0 +1,26 @@
+{
+  "name": "your-best-practice",
+  "version": "1.0.0",
+  "description": "welcome to your best practice project",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "requirejs": "~2.1.20"
+  },
+  "keywords": [
+    "best",
+    "pratice"
+  ],
+  "authors": [
+    "deein"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/deein/best-practice-project"
+}

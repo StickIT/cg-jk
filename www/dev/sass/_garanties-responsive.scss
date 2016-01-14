@@ -1,0 +1,110 @@
+// Smartphone portrait
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : portrait){
+
+			
+}	
+
+// Smartphone landscape
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : landscape){
+
+	
+}
+
+// Tablet portrait
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : portrait) {
+	
+	.content-garanties {
+		ul {
+			li{
+				&.content-garanties-step{
+
+					&.step-mid {
+						&:after{
+							display:none;
+						}
+					}
+				}
+			}
+		}
+	}				
+}
+
+// Tablet landscape
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : landscape) {
+
+	.content-garanties {
+		ul {
+			li{
+				&.content-garanties-step{
+
+					&.step-mid {
+						&:after{
+							display:none;
+						}
+					}
+				}
+			}
+		}
+	}			
+}
+
+// Low Desktop
+@media (min-width: $screen-md-min) and (max-width: 1180px){
+	.content-garanties {
+		ul {
+			li{
+				&.content-garanties-step{
+
+					&:after{
+						width: ($grid-gutter-width)-12px;
+					}
+
+					img {
+						&.content-garanties-step-logo {
+							width: 40px;
+							height: 40px;
+							margin-right: 12px;
+							margin-left: -6px;
+						}
+					}
+
+					.content-garanties-step-text{
+						padding-top: 6px;
+						font-size: 10px;
+						
+					}
+				}
+			}
+		}
+	}			
+}
+
+// Normal Desktop
+@media (min-width: 1180px) and (max-width: 1380px){
+	.content-garanties {
+		ul {
+			li{
+				&.content-garanties-step{
+
+					&:after{
+						width: ($grid-gutter-width)-12px;
+					}
+
+					img {
+						&.content-garanties-step-logo {
+							width: 40px;
+							height: 40px;
+							margin-right: 18px;
+						}
+					}
+
+					.content-garanties-step-text{
+						padding-top: ((($garanties-step-logo-size)-13px)/2)-22px;
+						font-size: 12px;
+						
+					}
+				}
+			}
+		}
+	}			
+}

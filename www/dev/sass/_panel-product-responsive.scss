@@ -1,0 +1,277 @@
+// Smartphone portrait
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : portrait){
+
+.panel-product {
+		margin-top: 20px;
+
+		.panel-product-heading{
+			img{
+				width: 90px;
+				height: 90px;
+			}
+			.panel-product-heading-title{
+			margin-top: 10px !important;
+			 font-size: 14px !important;
+			 	.title-highlight{
+			 		font-size: 20px !important;
+			 	}
+			}	
+		}
+
+		.panel-product-plate {
+			margin-top: 75px !important;
+			.panel-product-plate-shadow {
+				width: 100%;
+				left: 0%;
+			}
+			.purchase-btn{
+				left:0%;
+				width: 90%;
+				margin-left: 14px;
+				margin-top: 190px;
+			}
+			.panel-product-card-price{
+				width:90%;
+				text-align: center;
+				margin-top: 90px;
+				padding-left: 15px;
+			}	
+		}
+
+		.panel-product-card{
+
+			img{
+				left: 15%;
+				top:40px;
+			}
+
+			.panel-product-card-more {
+			display: inline-block ;
+				br{
+					display: none;
+				}
+			}
+		
+			.panel-product-card-3x{
+				width: 100% ;
+				margin-top: 6px;
+				padding-right: 0px;
+				text-align: center;
+				.panel-product-card-3x-left{
+					display: none;
+				}
+				.panel-product-card-3x-right{
+					float: left;
+					width: 100% ;
+				}
+			}	
+
+			.panel-product-card-shipping{
+				width: 100% ;
+				margin-top: 2px;
+				padding-right: 0px;
+				text-align: center;
+				.panel-product-card-shipping-left{
+					display: none;
+				}
+				.panel-product-card-shipping-right{
+					float: left;
+					width: 100% ;
+				}
+			}	
+
+			.panel-product-card-price{
+				width:100% !important;
+				text-align: center;
+				margin-top: 500px;
+			}
+		}			
+	}
+}
+
+// Smartphone landscape
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) and (orientation : landscape){
+	
+	.panel-product {
+		margin-top: 20px;
+
+		.panel-product-heading{
+			img{
+				width: 90px;
+				height: 90px;
+			}
+			.panel-product-heading-title{
+			 font-size: 14px !important;
+			 	.title-highlight{
+			 		font-size: 20px !important;
+			 	}
+			}	
+		}
+
+		.panel-product-plate {
+			margin-top: 75px !important;
+			.panel-product-plate-shadow {
+				width: 67%;
+				left: 22%;
+			}
+			.purchase-btn{
+				left:30%;
+			}
+		}
+
+		.panel-product-card{
+
+			img{
+				width: 160px;
+				top:30px;
+			}
+
+			.panel-product-card-more {
+			display: inline-block ;
+			}
+		
+			.panel-product-card-3x{
+				width: 100% ;
+				margin-top: 6px;
+				.panel-product-card-3x-left{
+					float: left;
+					padding-bottom: 0px;
+					padding-left: 0px ;
+					font-size: 13px ;
+					width: 25%;
+				}
+				.panel-product-card-3x-right{
+					float: left;
+					width: 75% ;
+				}
+			}	
+
+			.panel-product-card-shipping{
+				width: 100% ;
+				margin-top: 2px;
+				.panel-product-card-shipping-left{
+					float: left;
+					padding-bottom: 0px ;
+					padding-left: 0px ;
+					font-size: 11px ;
+					width: 25%;
+				}
+				.panel-product-card-shipping-right{
+					float: left;
+					width: 75% ;
+				}
+			}	
+
+			.panel-product-card-price{
+				width:75% !important;
+				margin-left: 24%;
+			}
+		}			
+	}
+}
+
+// Tablet portrait
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : portrait) {
+
+	.panel-product-plate{
+		margin-top: 120px !important;
+	}
+
+	.panel-product-heading-title{
+		font-size: 15px !important;
+		.title-highlight{
+			font-size: 21px !important;
+		}
+	}
+
+	.panel-product {
+		padding-left:30px;
+
+		.panel-product-card{
+			padding-left: 0px;
+			img{
+				right: 5%;
+				top:-90px;
+			}
+		}
+
+		.panel-product-card-price{
+			padding-top:13px !important;
+			margin-right: 15px !important;
+		}
+
+		.panel-product-card-shipping-right,.panel-product-card-3x-right,.panel-product-card-price{
+			padding-left:15px !important;
+		}
+
+		.panel-product-card-3x,.panel-product-card-shipping-right{
+			margin-right: 0px !important;
+			padding-right: 5px !important;
+		}
+	}		
+}
+
+// Tablet landscape
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation : landscape) {
+
+	.panel-product-heading-title{
+		font-size: 17px !important;
+		.title-highlight{
+			font-size: 23px !important;
+		}
+	}
+
+	.panel-product {
+		padding-left:30px;
+
+		.panel-product-card{
+			padding-left: 0px;
+			img{
+				right: 5%;
+				top:-90px;
+			}
+		}
+
+		.panel-product-card-price{
+			padding-top:13px !important;
+			margin-right: 15px !important;
+		}
+
+		.panel-product-card-shipping-right,.panel-product-card-3x-right,.panel-product-card-price{
+			padding-left:15px !important;
+		}
+	}		
+}
+
+// Normal Desktop
+@media (min-width: $screen-md-min) and (max-width: 1305px){
+
+	.panel-product-heading-title{
+		font-size: 18px !important;
+		.title-highlight{
+			font-size: 24px !important;
+		}
+	}
+
+	.panel-product-card-3x-left{
+		padding-bottom: 0px !important;
+		padding-left: 0px !important;
+		font-size: 13px !important;
+	}
+
+	.panel-product-card-shipping-left{
+		padding-bottom: 0px !important;
+		padding-left: 0px !important;
+		font-size: 12px !important;
+	}
+
+	.panel-product-card-more{
+		margin-top: 80px !important;
+	}
+
+	.panel-product-card{
+		img{
+			right: -30px !important;
+		}
+	}
+}

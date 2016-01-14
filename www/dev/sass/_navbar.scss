@@ -1,0 +1,191 @@
+.navbar-header {
+	.navbar-toggle{
+		z-index: 2;
+		// background-color:$cgp-grey-light;
+		&:hover, &:focus {
+		background-color:rgba(0,0,0,.2);
+	}
+	}
+	.icon-bar {
+		background-color:#fff !important;
+	}
+}
+
+.navbar-collapse {
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.navbar>.container {
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.navbar{
+	border:none;
+	text-transform: uppercase;
+	font-size:12px;
+	font-weight:600;
+	.navbar-brand{
+		margin-left: 0px !important;
+		background: $cgp-blue-official;
+		@include border-bottom-radius($border-radius-base);
+		img{
+			width:310px;
+			height: $navbar-height - ($navbar-padding-vertical*2);
+		}
+		&:hover{
+			background: $cgp-blue-official;
+		}
+	}
+	.navbar-justify{
+				@include display-flex;
+				@include flex-direction(row);
+  				@include justify-content(flex-end);
+
+		.nav{
+			&.navbar-nav{
+				height: $navbar-menu-height;
+				background: $cgp-grey-light;
+				@include border-bottom-radius($border-radius-base);
+			}
+			&.navbar-nav-menu{
+				margin-left:10px;
+				margin-right:10px;
+				@include flex(1);
+				@include display-flex;
+				@include flex-direction(row);
+  				@include justify-content(space-between);
+				li{				
+					&:first-child{
+						@include border-bottom-left-radius($border-radius-base);
+					}			
+					&:last-child{
+						@include border-bottom-right-radius($border-radius-base);
+					}
+					&:hover{
+						background: darken($cgp-grey-light, 3%);
+					}
+					a{
+						padding-left:20px;
+						padding-right:20px;
+					}
+					&:first-child{
+						&:before{
+							display:none;
+						}
+					}
+					&:before{
+						content : '';
+						position: absolute;
+						width: 1px;
+						height: 10px;
+						background: rgba($cgp-grey-dark, .5);
+						left: 0;
+						top: 50%;
+						margin-top: -5px;
+					}
+					.dropdown-menu{
+						text-transform: uppercase;
+						font-size:12px;
+						font-weight:600;
+						background-color: rgb(245, 245, 245);
+						border-color: darken($cgp-grey-light, 3%);
+						@include box-shadow($cgp-grey-light 0px 0px 8px);
+						li{
+							&:before{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+			&.navbar-nav-account{
+				background: $cgp-blue-official;
+				a{
+					color:white !important;
+					@include display-flex;
+					@include align-items(center);
+			  		@include justify-content(center);
+			  		padding-top: ($grid-gutter-width/2) - 4;
+			  		padding-bottom: ($grid-gutter-width/2) - 4;
+			  		.icon-circle{			  			
+			  			border:3px solid white;
+			  			@include border-radius(100px);
+		  				// padding:7px 2.5px;
+		  				padding:3px;
+	  					margin-right:4px;
+			  		}
+			  		.navbar-nav-account-link{
+			  			line-height:10px;
+			  			font-weight:600;
+			  			span{
+			  				font-weight:400;
+			  				color:rgba(white, .8);
+			  				letter-spacing: .5px;
+			  			}
+			  		}
+				}
+				margin-right:10px;
+				&:hover{
+					background: $cgp-blue-official-light;
+				}
+			}
+			&.navbar-nav-rate{
+				height:auto;
+				background: transparent;
+				margin:0;
+				a{
+					color:white !important;
+					padding:0;
+				}
+				.navbar-nav-rate-header{					
+					background: $cgp-red-official;
+					padding-left: ($grid-gutter-width/2);
+					padding-right: ($grid-gutter-width/2);
+					line-height: $navbar-menu-height/2;
+					&:after{
+						content: '\f0d7';
+						position: absolute;
+						top: ($navbar-menu-height/2) - 11px;
+						right:28px;
+						color: $cgp-red-official;
+						width:10px;
+						height:10px;
+						font-size:20px;
+						font-family: 'FontAwesome';
+					}
+				}
+				.navbar-nav-rate-stars{					
+					background: $cgp-grey-light;
+					color: $cgp-yellow-official;					
+					padding-left: ($grid-gutter-width/2);
+					padding-right: ($grid-gutter-width/2);
+					line-height: $navbar-menu-height/2;
+					@include border-bottom-radius($border-radius-base);
+					&.list-inline{
+						margin:0;
+						li{
+							padding:0;
+							&:last-child{
+								color:$cgp-grey-dark;
+							}
+						}
+					}
+				}
+				.navbar-nav-rate-advice{					
+					background: $cgp-grey-dark;
+					padding-left: ($grid-gutter-width/2);
+					padding-right: ($grid-gutter-width/2);
+					@include border-bottom-radius($border-radius-base);
+					margin:0 10px;
+					font-size: 10px;
+					line-height: 22px;
+					i{
+						color: $cgp-yellow-official;
+					}
+				}
+			}
+		}
+	}
+}
