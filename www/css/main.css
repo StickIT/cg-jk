@@ -2372,13 +2372,13 @@ pre code {
 @media (min-width: 1024px) {
   /* line 10, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 970px;
+    width: 1010px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   /* line 10, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 1400px;
+    width: 1130px;
   }
 }
 
@@ -3204,7 +3204,7 @@ pre code {
     margin-left: 100%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   /* line 27, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -8616,7 +8616,7 @@ button.close {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1199px) {
+@media (min-width: 1024px) and (max-width: 1399px) {
   /* line 7, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-md {
     display: block !important;
@@ -8638,28 +8638,28 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 1024px) and (max-width: 1199px) {
+@media (min-width: 1024px) and (max-width: 1399px) {
   /* line 92, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-block {
     display: block !important;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1199px) {
+@media (min-width: 1024px) and (max-width: 1399px) {
   /* line 97, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1199px) {
+@media (min-width: 1024px) and (max-width: 1399px) {
   /* line 102, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   /* line 7, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-lg {
     display: block !important;
@@ -8681,21 +8681,21 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   /* line 111, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-block {
     display: block !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   /* line 116, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   /* line 121, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline-block {
     display: inline-block !important;
@@ -8714,13 +8714,13 @@ button.close {
     display: none !important;
   }
 }
-@media (min-width: 1024px) and (max-width: 1199px) {
+@media (min-width: 1024px) and (max-width: 1399px) {
   /* line 18, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-md {
     display: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   /* line 18, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-lg {
     display: none !important;
@@ -12285,11 +12285,6 @@ button.close {
   color: #d7ca0c;
 }
 
-/* line 1, ../dev/sass/_home.scss */
-body {
-  background: #fff;
-}
-
 /* line 1, ../dev/sass/_garanties.scss */
 .content-garanties {
   background-color: #f0f0f0;
@@ -13191,74 +13186,62 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     margin-right: 0px !important;
   }
 }
-@media (min-width: 1024px) and (max-width: 1224px) {
-  /* line 377, ../dev/sass/_navbar-responsive.scss */
-  body .container {
-    width: 100%;
-  }
+@media (min-width: 1024px) and (max-width: 1380px) {
   /* line 380, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav-menu {
-    font-size: 9px;
+    font-size: 10px !important;
+    margin-right: 6px !important;
+    margin-left: 6px !important;
   }
-  /* line 383, ../dev/sass/_navbar-responsive.scss */
+  /* line 385, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav-menu li a {
-    padding-right: 0px !important;
+    padding-right: 4px !important;
     padding-left: 12px !important;
   }
-  /* line 388, ../dev/sass/_navbar-responsive.scss */
+  /* line 390, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav-menu li a:before {
     margin-left: -10px !important;
   }
-  /* line 395, ../dev/sass/_navbar-responsive.scss */
+  /* line 397, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav {
     font-size: 10px;
   }
-  /* line 398, ../dev/sass/_navbar-responsive.scss */
+  /* line 400, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav .navbar-nav-rate-header, body .container .navbar-nav .navbar-nav-rate-stars {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  /* line 403, ../dev/sass/_navbar-responsive.scss */
+  /* line 405, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav .navbar-nav-rate-advice {
     padding-left: 10px !important;
     padding-right: 10px !important;
     font-size: 8px !important;
   }
-  /* line 434, ../dev/sass/_navbar-responsive.scss */
+  /* line 436, ../dev/sass/_navbar-responsive.scss */
   body .container .navbar-nav .icon-circle {
     border: 2px solid !important;
     padding: 1px 2px !important;
   }
-  /* line 441, ../dev/sass/_navbar-responsive.scss */
+  /* line 443, ../dev/sass/_navbar-responsive.scss */
   body .navbar-brand {
     padding: 8px 15px;
     height: 70px;
   }
-  /* line 444, ../dev/sass/_navbar-responsive.scss */
+  /* line 446, ../dev/sass/_navbar-responsive.scss */
   body .navbar-brand img {
     width: 200px !important;
   }
-  /* line 447, ../dev/sass/_navbar-responsive.scss */
+  /* line 449, ../dev/sass/_navbar-responsive.scss */
   body .navbar-brand:hover {
     background: #0064CB;
   }
-}
-@media (min-width: 1224px) and (max-width: 1380px) {
-  /* line 458, ../dev/sass/_navbar-responsive.scss */
-  body .container {
-    width: 100%;
+  /* line 454, ../dev/sass/_navbar-responsive.scss */
+  body .navbar-nav-account {
+    margin-right: 6px !important;
   }
-  /* line 461, ../dev/sass/_navbar-responsive.scss */
-  body .container .navbar-nav-menu {
-    font-size: 10px;
-  }
-  /* line 497, ../dev/sass/_navbar-responsive.scss */
-  body .navbar-brand img {
-    width: 240px !important;
-  }
-  /* line 500, ../dev/sass/_navbar-responsive.scss */
-  body .navbar-brand:hover {
-    background: #0064CB;
+  /* line 457, ../dev/sass/_navbar-responsive.scss */
+  body .navbar-nav-account li a {
+    padding: 10px 8px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
@@ -13273,7 +13256,7 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     display: none;
   }
 }
-@media (min-width: 1024px) and (max-width: 1180px) {
+@media (min-width: 1024px) and (max-width: 1380px) {
   /* line 58, ../dev/sass/_garanties-responsive.scss */
   .content-garanties ul li.content-garanties-step:after {
     width: 18px;
@@ -13289,23 +13272,6 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
   .content-garanties ul li.content-garanties-step .content-garanties-step-text {
     padding-top: 6px;
     font-size: 10px;
-  }
-}
-@media (min-width: 1180px) and (max-width: 1380px) {
-  /* line 89, ../dev/sass/_garanties-responsive.scss */
-  .content-garanties ul li.content-garanties-step:after {
-    width: 18px;
-  }
-  /* line 94, ../dev/sass/_garanties-responsive.scss */
-  .content-garanties ul li.content-garanties-step img.content-garanties-step-logo {
-    width: 40px;
-    height: 40px;
-    margin-right: 18px;
-  }
-  /* line 101, ../dev/sass/_garanties-responsive.scss */
-  .content-garanties ul li.content-garanties-step .content-garanties-step-text {
-    padding-top: 1.5px;
-    font-size: 12px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
@@ -13368,27 +13334,44 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
   label {
     font-size: 11px;
     margin-bottom: 20px;
+    padding-right: 0px !important;
   }
 
-  /* line 65, ../dev/sass/_purchase-module-responsive.scss */
+  /* line 66, ../dev/sass/_purchase-module-responsive.scss */
   .purchase-module-form-label {
     padding-bottom: 8px;
   }
 
-  /* line 69, ../dev/sass/_purchase-module-responsive.scss */
+  /* line 70, ../dev/sass/_purchase-module-responsive.scss */
   .purchase-module-form-label-input, .purchase-module-form-label-option, .purchase-module-form-label-select {
     margin-bottom: 10px;
   }
-}
-@media (min-width: 1218px) and (max-width: 1385px) {
-  /* line 76, ../dev/sass/_purchase-module-responsive.scss */
-  .purchase-module-heading-title {
-    font-size: 24px !important;
+
+  /* line 74, ../dev/sass/_purchase-module-responsive.scss */
+  .purchase-btn {
+    font-size: 14px !important;
   }
 
-  /* line 80, ../dev/sass/_purchase-module-responsive.scss */
+  /* line 79, ../dev/sass/_purchase-module-responsive.scss */
+  .panel-body p {
+    font-size: 12px !important;
+  }
+}
+@media (min-width: 1218px) and (max-width: 1385px) {
+  /* line 88, ../dev/sass/_purchase-module-responsive.scss */
+  .purchase-btn {
+    font-size: 14px !important;
+  }
+
+  /* line 92, ../dev/sass/_purchase-module-responsive.scss */
+  .purchase-module-heading-title {
+    font-size: 20px !important;
+  }
+
+  /* line 96, ../dev/sass/_purchase-module-responsive.scss */
   label {
     font-size: 12px;
+    padding-left: 0px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
@@ -13644,35 +13627,41 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
   }
 }
 @media (min-width: 1024px) and (max-width: 1305px) {
-  /* line 249, ../dev/sass/_panel-product-responsive.scss */
-  .panel-product-heading-title {
-    font-size: 18px !important;
+  /* line 250, ../dev/sass/_panel-product-responsive.scss */
+  .panel-product-heading img {
+    width: 80px !important;
+    height: 80px !important;
   }
-  /* line 251, ../dev/sass/_panel-product-responsive.scss */
-  .panel-product-heading-title .title-highlight {
-    font-size: 24px !important;
+  /* line 255, ../dev/sass/_panel-product-responsive.scss */
+  .panel-product-heading .panel-product-heading-title {
+    font-size: 16px !important;
+    margin-top: 16px !important;
+  }
+  /* line 258, ../dev/sass/_panel-product-responsive.scss */
+  .panel-product-heading .panel-product-heading-title .title-highlight {
+    font-size: 22px !important;
   }
 
-  /* line 256, ../dev/sass/_panel-product-responsive.scss */
+  /* line 264, ../dev/sass/_panel-product-responsive.scss */
   .panel-product-card-3x-left {
     padding-bottom: 0px !important;
     padding-left: 0px !important;
     font-size: 13px !important;
   }
 
-  /* line 262, ../dev/sass/_panel-product-responsive.scss */
+  /* line 270, ../dev/sass/_panel-product-responsive.scss */
   .panel-product-card-shipping-left {
     padding-bottom: 0px !important;
     padding-left: 0px !important;
     font-size: 12px !important;
   }
 
-  /* line 268, ../dev/sass/_panel-product-responsive.scss */
+  /* line 276, ../dev/sass/_panel-product-responsive.scss */
   .panel-product-card-more {
     margin-top: 80px !important;
   }
 
-  /* line 273, ../dev/sass/_panel-product-responsive.scss */
+  /* line 281, ../dev/sass/_panel-product-responsive.scss */
   .panel-product-card img {
     right: -30px !important;
   }
@@ -13789,7 +13778,7 @@ footer .footer-bottom-color .container .footer-bottom .footer-bottom-copyright {
     height: 20px !important;
   }
 }
-@media (min-width: 1024px) and (max-width: 1199px) {
+@media (min-width: 1024px) and (max-width: 1399px) {
   /* line 130, ../dev/sass/_footer-responsive.scss */
   .footer-top-heading {
     font-size: 16px;

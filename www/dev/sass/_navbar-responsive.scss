@@ -371,18 +371,20 @@
 }
 
 // Mid-low Desktop (1024 > 1124 px)
-@media (min-width: 1024px) and (max-width: 1224px) {
+@media (min-width: 1024px) and (max-width: 1380px) {
 	body{
 
 		.container {
-			width:100%;
+			// width:100%;
 
 			.navbar-nav-menu {
-				font-size: 9px;
+				font-size: 10px !important;
+				margin-right: 6px !important;
+				margin-left: 6px !important;
 					li{
 						a{
 						// padding: 10px 10px;
-						padding-right:0px !important;
+						padding-right:4px !important;
 						padding-left:12px !important;
 
 						&:before{
@@ -448,57 +450,13 @@
 				background: $cgp-blue-official;
 			}
 		}
-	}			
-}
 
-// Normal Desktop (1224 > 1380 px)
-@media (min-width: 1224px) and (max-width: 1380px) {
-	body{
-
-		.container {
-			width:100%;
-
-			.navbar-nav-menu {
-				font-size: 10px;
-			}
-
-			// .navbar{
-			// 	border:none;
-			// 	text-transform: uppercase;
-			// 	font-size:12px;
-			// 	font-weight:600;
-
-			// 	.navbar-justify{
-			// 		@include display-flex;
-			//   		@include justify-content(space-between);
-
-			// 		.nav{
-			// 			&.navbar-nav{
-			// 				height: $navbar-menu-height;
-			// 				background: $cgp-grey-light;
-			// 				@include border-bottom-radius($border-radius-base);
-			// 			}	
-
-			// 			&.navbar-nav-menu {
-			// 				font-size: 9px;
-			// 			}		
-			// 		}
-
-			// 	}
-			// }
-
-			// .icon-circle {
-			// 	border: 2px solid !important;
-			// 	padding: 1px 2px !important;
-			// }
-		}
-
-		.navbar-brand{
-			img {
-				width:240px !important;
-			}
-			&:hover{
-				background: $cgp-blue-official;
+		.navbar-nav-account{
+			margin-right: 6px !important;
+			li{
+				a{
+					padding: 10px 8px;
+				}
 			}
 		}
 	}			

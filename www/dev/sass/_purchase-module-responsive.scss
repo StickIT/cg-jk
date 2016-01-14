@@ -60,6 +60,7 @@
 	label{
 		font-size: 11px;
 		margin-bottom: 20px;
+		padding-right: 0px !important;
 	}
 
 	.purchase-module-form-label{
@@ -69,15 +70,31 @@
 	.purchase-module-form-label-input,.purchase-module-form-label-option,.purchase-module-form-label-select{
 		margin-bottom: 10px;
 	}
+
+	.purchase-btn{
+		font-size: 14px !important;
+	}
+
+	.panel-body{
+		p{
+			font-size: 12px !important;
+		}
+	}
 }
 
 // Mid-low Desktop (1218 > 1385 px)
 @media (min-width: 1218px) and (max-width: 1385px) {
+	
+	.purchase-btn{
+		font-size: 14px !important;
+	}
+
 	.purchase-module-heading-title{
-		font-size: 24px !important;
+		font-size: 20px !important;
 	}
 
 	label{
 		font-size: 12px;
-	}
+		padding-left:0px;
+	}	
 }

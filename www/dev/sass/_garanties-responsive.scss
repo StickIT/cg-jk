@@ -49,7 +49,7 @@
 }
 
 // Low Desktop
-@media (min-width: $screen-md-min) and (max-width: 1180px){
+@media (min-width: $screen-md-min) and (max-width: 1380px){
 	.content-garanties {
 		ul {
 			li{
@@ -79,32 +79,32 @@
 	}			
 }
 
-// Normal Desktop
-@media (min-width: 1180px) and (max-width: 1380px){
-	.content-garanties {
-		ul {
-			li{
-				&.content-garanties-step{
+// // Normal Desktop
+// @media (min-width: 1180px) and (max-width: 1380px){
+// 	.content-garanties {
+// 		ul {
+// 			li{
+// 				&.content-garanties-step{
 
-					&:after{
-						width: ($grid-gutter-width)-12px;
-					}
+// 					&:after{
+// 						width: ($grid-gutter-width)-12px;
+// 					}
 
-					img {
-						&.content-garanties-step-logo {
-							width: 40px;
-							height: 40px;
-							margin-right: 18px;
-						}
-					}
+// 					img {
+// 						&.content-garanties-step-logo {
+// 							width: 40px;
+// 							height: 40px;
+// 							margin-right: 18px;
+// 						}
+// 					}
 
-					.content-garanties-step-text{
-						padding-top: ((($garanties-step-logo-size)-13px)/2)-22px;
-						font-size: 12px;
+// 					.content-garanties-step-text{
+// 						padding-top: ((($garanties-step-logo-size)-13px)/2)-22px;
+// 						font-size: 10px;
 						
-					}
-				}
-			}
-		}
-	}			
-}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}			
+// }

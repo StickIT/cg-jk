@@ -7,7 +7,7 @@
 @import '../../../bower_components/font-awesome/scss/font-awesome.scss';
 // Desktop
 @import 'navbar';
-@import 'home';
+// @import 'home';
 @import 'garanties';
 @import 'purchase-module';
 @import 'info-module';
@@ -15,6 +15,7 @@
 @import 'footer';
 
 // Responsives
+// @import 'home-responsive';
 @import 'navbar-responsive';
 @import 'garanties-responsive';
 @import 'purchase-module-responsive';

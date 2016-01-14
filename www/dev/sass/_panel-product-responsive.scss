@@ -246,10 +246,18 @@
 // Normal Desktop
 @media (min-width: $screen-md-min) and (max-width: 1305px){
 
-	.panel-product-heading-title{
-		font-size: 18px !important;
-		.title-highlight{
-			font-size: 24px !important;
+	.panel-product-heading{
+		img{
+			width: 80px !important;
+			height: 80px !important;
+		}
+
+		.panel-product-heading-title{
+			font-size: 16px !important;
+			margin-top: 16px !important;
+			.title-highlight{
+				font-size: 22px !important;
+			}
 		}
 	}
 
